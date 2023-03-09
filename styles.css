@@ -1,0 +1,27 @@
+h1 {
+    text-align: center;
+}
+
+
+header {
+border: 10px solid black;
+margin-bottom: 10px;    
+background-color: rgb(74, 173, 123);
+}
+
+section  {
+    height: 600px;
+    margin-bottom: 5px;
+
+border: 10px solid black;
+
+}
+
+
+
+
+footer {
+margin-top: 5px;
+    border: 10px solid black;
+    background-color: rgb(74, 173, 123);
+}
