@@ -9,29 +9,79 @@
 <body>
     <header>
       <h1>Ben's Contact Information</h1>
+      <ul class="links">
+<li> 
+    <a href="#visitor-information">Visitor information</a>
+</li>
+<li>
+    <a href="#contact-form">Contact Form</a>
+</li>
+
+      </ul>
     </header>
 </body>
 
 
-<div>
+<div id="visitor-information">
 <section >
- <h1>Information</h1>
-<p>Hi my name is ben and im trying to learn to code </p>
+
+ <h2> Visitor Information </h2>
+    <div class="float-right">
+        <img src="./902-9021276_kikis-delivery-service-embroidery-patch-the-ghost.jpg" alt="Spooky ghost" 
+        width="100px"
+        height="100px">
+    </div>
+ <h3> Here goes visitor form</h3>
+    
+ <div class="float-right">
+        
+     
+    
+    </div>
+ 
+    <p>Lorem ipsum</p>
+
 
 
 </section>
 
-<figure>
-    <img src="./902-9021276_kikis-delivery-service-embroidery-patch-the-ghost.jpg" alt="Spooky Ghost place Holder"
-    width="100px"
-    height="100px">
-
-</figure>
 
 
-</div>
 
-<section>
+</div class="container">
+
+
+<section class="h2" id="contact-form">
+<h2>Contact Form</h2>
+
+<div class="container">
+    <form action="action_page.php">
+  
+      <label for="fname">First Name</label>
+      <input type="text" id="fname" name="firstname" placeholder="Your name..">
+  
+      <label for="lname">Last Name</label>
+      <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+  
+      <label for="country">Country</label>
+      <select id="country" name="country">
+        <option value="South Australia">South Australia</option>
+        <option value="Western Australia">Western Australia</option>
+        <option value="Northen Teritory">Northen Teritory</option>
+        <option value="Queensland">Queensland</option>
+        <option value="New South Wales">New South Wales</option>
+        <option value="Tasmania">Tasmania</option>
+        <option value="Victoria">Victoria</option>
+
+      </select>
+  
+      <label for="subject">Subject</label>
+      <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+  
+      <input type="submit" value="Submit">
+  
+    </form>
+  </div>
 
 </section>
 
@@ -40,7 +90,7 @@
 </footer>
 
 
-
+<div class=""> </div>
 
 
 </html>
